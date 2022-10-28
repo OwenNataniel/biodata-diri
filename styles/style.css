@@ -1,0 +1,342 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0b0b0b;
+    width: 100%;
+}
+
+header {
+    height: 100vh;
+    width: 100%;
+    background-image: url(../asset/img/bg2.jpg);
+    color: white;
+    background-size: cover;
+    background-position: center;
+    z-index: 10;
+}
+
+.home {
+    text-decoration: none;
+    color: white;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 8%;
+    padding-right: 8%;
+    background-color: rgb(25, 51, 75);
+    box-shadow: 0px 5px 10px 0 rgb(25, 25, 25);
+    position: sticky;
+    top: 0;
+    overflow: auto;
+    z-index: 10px;
+}
+
+.logo {
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: transform .4s;
+}
+
+.logo:hover {
+    transform: scale(1.2);
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover {
+    color: rgb(217, 0, 255);
+    transition: .4s;
+}
+
+.greeting {
+    text-align: center;
+    margin-top: 10%;
+    transform: translateY(35%);
+}
+
+.greeting h1 {
+    transition: transform .4s;
+}
+
+.greeting h1:hover {
+    transform: scale(1.2);
+}
+
+header h4 {
+    letter-spacing: 2px;
+    color: #fcfc;
+    font-size: 30px;
+}
+
+header h1 {
+    color: white;
+    margin: 20px 0px 20px;
+    font-size: 80px;
+}
+
+header h3 {
+    color: white;
+    font-size: 35px;
+}
+
+main {
+    padding: 20px;
+    overflow: auto;
+    background-color: #0b0b0b;
+    color: white;
+    display: flex;
+    height: 100%;
+}
+
+.about {
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 50px;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0 5px 8px 0 rgb(217, 0, 255);
+}
+
+.about h3 {
+    font-size: 60px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+    color: rgb(100, 206, 255);
+    text-shadow: 3px 2px 3px rgb(217, 0, 255);
+    transition: transform .4s;
+}
+
+.about h3:hover {
+    transform: scale(1.2);
+}
+
+.about p {
+    font-size: 20px;
+    text-align: justify;
+    letter-spacing: 2px;
+    line-height: 30px;
+    margin-bottom: 10px;
+    padding: 40px;
+}
+
+.profile .header {
+    text-align: center;
+}
+
+.profile img {
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+aside {
+    float: right;
+    width: 25%;
+    padding-left: 30px;
+    margin-top: 50px;
+}
+
+.profile {
+    border-radius: 5px;
+    padding: 20px;
+    height: 100%;
+    text-align: left;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0 5px 8px 0 rgb(217, 0, 255);
+}
+
+.flex-column {
+    margin-top: 50px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0 5px 8px 0 rgb(217, 0, 255);
+}
+
+.flex-column h3 {
+    font-size: 60px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+    color: rgb(100, 206, 255);
+    text-shadow: 3px 2px 3px rgb(217, 0, 255);
+    transition: transform .4s;
+}
+
+.flex-column h3:hover {
+    transform: scale(1.2);
+}
+
+.box {
+    padding: 10px;
+    margin-left: 0;
+}
+
+.box h4 {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: rgba(255, 166, 0, 0.9);
+}
+
+.box p {
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+
+.container {
+    display: flex;
+    margin: 20px;
+}
+
+.education {
+    padding: 20px;
+    margin: 20px;
+    height: 100%;
+    border-radius: 5px;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0 5px 8px 0 rgb(217, 0, 255);
+}
+
+.box1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.education h3 {
+    color: white;
+    font-size: 60px;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-shadow: 3px 2px 3px rgb(217, 0, 255);
+    color: rgb(100, 206, 255);
+    transition: transform .4s;
+}
+
+.education h3:hover {
+    transform: scale(1.2);
+}
+
+.card1 {
+    height: 250px;
+    width: 500px;
+    padding: 70px 50px;
+    background: black;
+    border-radius: 20px;
+    box-shadow: 0 0px 8px 0 rgb(217, 0, 255);
+    margin: 15px;
+    text-align: center;
+}
+
+.card1 h5 {
+    font-size: 25px;
+    margin-bottom: 15px;
+    color: rgba(255, 166, 0, 0.9);
+}
+
+.card1 h6 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.card1 p {
+    font-size: 20px;
+    color: white;
+}
+
+footer {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    color: rgb(217, 0, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.social {
+    display: flex;
+}
+
+.social a {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(217, 0, 255);
+    border-radius: 50%;
+    margin: 22px 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.social a:hover {
+    transform: scale(1.3);
+    transition: .3s;
+}
+
+footer p:nth-child(1) {
+    font-size: 30px;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: bold;
+    transition: transform .4s;
+}
+
+footer p:nth-child(1):hover {
+    transform: scale(1.2);
+}
+
+footer p:nth-child(2) {
+    color: white;
+    font-size: 17px;
+    width: 500px;
+    text-align: center;
+    line-height: 26px;
+}
+
+
+.end {
+    position: absolute;
+    color: rgb(217, 0, 255);
+    bottom: 35px;
+    font-size: 14px;
+}
+
+span {
+    color: rgb(217, 0, 255);
+}
